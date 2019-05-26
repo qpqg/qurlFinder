@@ -1,0 +1,9 @@
+/wp-admin/
+/wordpress/wp-content/plugins/store-locator-le/downloadcsv.php
+/wp-content/plugins/store-locator-le/downloadcsv.php
+/wp-content/
+/wp-content/plugins/
+/wp-content/themes/
+/uploads/
+/images/
+/cms/kcfinder/upload/files/
