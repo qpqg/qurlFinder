@@ -27,7 +27,7 @@ def color(color="G", teks=None):
 		values.get("w"))
 	if color is "RD":
 		colors=colors.replace("FOUND", "REDIRECT")
-	elif "R":
+	elif color is "R":
 		colors=colors.replace("FOUND", "NOT FOUND")
 	return colors
 def scanner(s):
