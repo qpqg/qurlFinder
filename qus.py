@@ -1,17 +1,17 @@
 import os
-from subprocess import Popen, PIPE
+
 from multiprocessing import Process
 try:
 	from requests import request
 except ImportError:
 	print "Yous must Install requests moduls\nfor running this script"
-finally:
-	print "Installing request"
-	try:
-		Popen(["pip2 install requests"],shell=True, stdout=PIPE).communicate()
-	except Exception as e:
-		print "pip2 not called"
-		print e
+
+	
+	
+	
+	
+		
+
 def banner():
 	g = "="*20
 	print "{}\nSimple Costum Url Finders\nBy QiubyZhukhi\n{}".format(g, g)
